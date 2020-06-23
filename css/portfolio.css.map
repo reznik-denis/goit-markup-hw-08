@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/portfolio.scss",
+        "../sass/utils/vars/_vars.scss",
+        "../sass/utils/vars/_fonts.scss",
+        "../sass/utils/vars/_time-function.scss"
+    ],
+    "names": [],
+    "file": "portfolio.css"
+}

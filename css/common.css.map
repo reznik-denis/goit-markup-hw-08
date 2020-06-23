@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/common.scss",
+        "../sass/utils/vars/_vars.scss",
+        "../sass/utils/vars/_fonts.scss",
+        "../sass/utils/vars/_time-function.scss"
+    ],
+    "names": [],
+    "file": "common.css"
+}
