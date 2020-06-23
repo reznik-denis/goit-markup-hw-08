@@ -1,0 +1,37 @@
+.advantages {
+  .item {
+    width: 100%;
+    margin-bottom: 30px;
+    @media screen and (min-width: 1600px) {
+      width: calc((100% - 90px) / 4);
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+    &:nth-child(4n) {
+        margin-right: 0;
+        margin-bottom: 60px;
+        @media screen and (min-width: 1600px) {
+          margin-bottom: 0;
+        }
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.bacground-color-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: $bacground-second-color;
+  border-radius: 4px;
+}
+
+.icon-advantages {
+  display: block;
+}

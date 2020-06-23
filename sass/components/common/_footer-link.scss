@@ -1,0 +1,109 @@
+.adress {
+  margin-bottom: 9px;
+  margin-top: 20px;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: $primary-white-color;
+  background-color: $footer-bacground-color;
+  @media screen and (min-width: 1600px) {
+    margin-top: 10px;
+  }
+}
+
+.footer-link .footer-link-contact {
+  margin-bottom: 9px;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: $footer-three-text-color;
+  background-color: $footer-bacground-color;
+
+  transition: color 250ms $time-function;
+  &:hover, &:focus {
+    color: $accent-color;
+  }
+}
+
+.social-links {
+  margin-bottom: 21px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $primary-white-color;
+  background-color: $footer-bacground-color;
+}
+
+.footer .join-in {
+  padding: 60px 0;
+  @media screen and (min-width: 1600px) {
+    padding: 56px 0;
+  }
+}
+
+.footer-social > .social-footer-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $border-footer-solid;
+  border-radius: 22px;
+
+  transition: background-color 250ms $time-function;
+  &:hover, &:focus {
+    background-color: $accent-color;
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.bacground-footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  color: $primary-white-color;
+  border-radius: 50%;
+}
+
+.icon-footer {
+  display: block;
+  fill: currentColor;
+}
+
+.footer-colums {
+  padding-top: 60px;
+  text-align: center;
+  @media screen and (min-width: 1600px) {
+    padding-top: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 1600px) {
+    justify-content: start;
+  }
+}
+
+

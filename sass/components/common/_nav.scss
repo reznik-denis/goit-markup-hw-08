@@ -1,0 +1,136 @@
+.header-border {
+  border-bottom: 1px solid $border-bottom-color;
+}
+
+@media screen and (min-width: 1600px) {
+    .main {
+    display: flex;
+    }
+}
+
+.main-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+     @media screen and (min-width: 1600px) {
+         display: flex;
+         padding: 0;
+     }
+}
+
+.menu-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header {
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: inherit;
+    background-color: transparent;
+    font: inherit;
+    font-family: inherit;
+    @media screen and (min-width: 1600px) {
+      display: none;
+    }
+}
+
+.site-nav {
+    display: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    @media screen and (min-width: 1600px) {
+        display: flex;
+    }
+    .link {
+        display: block;
+        padding: 32px 0px;
+
+        color: $primary-text-color;
+
+        transition: color 250ms $time-function;
+        &:hover,
+        &:focus {
+        color: $accent-color;
+        }
+    }
+    .item:not(:last-child) {
+        margin-right: 50px;
+    }
+}
+
+.position {
+  position: relative;
+}
+
+.contacts-main {
+  display: flex;
+}
+
+.site-nav .link.current {
+  color: $accent-color;
+  &::after {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+
+    content: ' ';
+
+    border-radius: 2px;
+    background-color: $accent-color;
+
+    transition: color 250ms $time-function;
+  }
+  &:hover,
+  &:focus {
+    color: $primary-text-color;
+  }
+}
+
+.site-nav .contacts-main .link-contact {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  margin-left: 10px;
+
+  color: $text-color;
+
+  transition: color 250ms $time-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.site-contacts {
+  margin-left: auto;
+}
+
+.site-nav .contacts-main:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-mail {
+  display: block;
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+}
+
+.icon-tel {
+  display: block;
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+}

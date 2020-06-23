@@ -1,0 +1,40 @@
+.displey-none {
+  display: none;
+  @media screen and (min-width: 1600px) {
+    display: block;
+  }
+}
+
+.img-margin {
+  margin-bottom: 30px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.doing {
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    position: relative;
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+}
+
+.working {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 27px 0;
+  margin-bottom: 0;
+
+  text-align: center;
+
+  color: $primary-white-color;
+  background-color: $bacground-three-color;
+}

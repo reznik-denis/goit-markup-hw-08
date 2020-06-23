@@ -1,11 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AIAA,AAAA,gBAAgB,AAAC,CACf,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,GAAG,CACX,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,GAAG,CACX,OAAO,CAAE,GAAG,CACZ,IAAI,CAAE,aAAa,CACnB,QAAQ,CAAE,MAAM,CACjB",
     "sources": [
         "../sass/portfolio.scss",
         "../sass/utils/vars/_vars.scss",
         "../sass/utils/vars/_fonts.scss",
-        "../sass/utils/vars/_time-function.scss"
+        "../sass/utils/vars/_time-function.scss",
+        "../sass/components/main/_visually-hidden.scss"
     ],
     "names": [],
     "file": "portfolio.min.css"

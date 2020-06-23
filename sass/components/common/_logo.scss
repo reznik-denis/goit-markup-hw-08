@@ -1,0 +1,26 @@
+.logo {
+  margin-right: 85px;
+
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: $primary-text-color;
+
+  transition: color 250ms $time-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.logo-accent {
+  color: $accent-color;
+
+  transition: color 250ms $time-function;
+  &:hover,
+  &:focus {
+    color: $primary-text-color;
+  }
+}

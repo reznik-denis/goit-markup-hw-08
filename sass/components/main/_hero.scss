@@ -1,0 +1,79 @@
+.overlay {
+  max-width: 480px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../images/Header.jpg');
+  @media screen and (min-width: 1600px) {
+    max-width: 1600px;
+    height: 600px;
+  }
+}
+
+.hero {
+  text-align: center;
+  .hero-title {
+    margin-bottom: 30px;
+    padding-top: 118px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+    @media screen and (min-width: 1600px) {
+      margin-bottom: 46px;
+      padding-top: 200px;
+      padding-left: 262px;
+      padding-right: 262px;
+
+      font-size: 44px;
+    }
+  }
+  .link.buttom {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+
+    color: $primary-white-color;
+    background-color: $accent-color;
+  }
+}
+
+.buttom {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font: inherit;
+  font-family: inherit;
+  min-width: 200px;
+  text-align: center;
+
+  border: none;
+  color: inherit;
+  transform: scale(1);
+  transition: transform 250ms $time-function;
+  &:hover, &:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+

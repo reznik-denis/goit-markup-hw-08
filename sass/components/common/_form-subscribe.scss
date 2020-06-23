@@ -1,0 +1,92 @@
+.subscribe label {
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+
+  color: $primary-white-color;
+}
+
+.subscribe input {
+  width: 100%;
+  padding: 16px 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: $footer-bacground-color;
+  border-radius: 4px;
+  @media screen and (min-width: 1600px) {
+    width: 358px;
+    margin-right: 12px;
+  }
+  &::placeholder {
+    font-size: 16px;
+    line-height: 30px;
+
+    color: $footer-three-text-color;
+  } 
+}
+
+.footer-flex-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (min-width: 1600px) {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .form-footer .subscribe {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.subscribe-footer {
+  display: flex;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+  margin-left: 12px;
+
+  transform: scale(1);
+  transition: transform 250ms $time-function;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  border: none;
+  border-radius: 4px;
+  color: $primary-white-color;
+  background-color: $accent-color;
+  &::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+
+    background-image: url(../images/send.svg);
+  }
+  &:hover, &:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.subscribe button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  @media screen and (min-width: 1600px) {
+    margin-top: 0;
+  }
+}

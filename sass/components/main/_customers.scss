@@ -1,0 +1,53 @@
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (min-width: 1600px) {
+    flex-wrap: nowrap;
+  }
+  .item {
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    border: 1px solid $border-customers-color;
+    border-radius: 4px;
+    color: $border-customers-color;
+    cursor: pointer;
+
+    transition: border-color 250ms $time-function,
+      color 250ms $time-function;
+    &:nth-child(2n) {
+        margin-right: 0;
+    }
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 1600px) {
+      width: calc((100% - 150px) / 6);
+      margin-bottom: 0;
+        &:nth-child(2n) {
+        margin-right: 30px;
+      }
+        &:nth-child(6n) {
+        margin-right: 0;
+      }
+    }
+    &:hover, &:focus {
+      border-color: $accent-color;
+      color: $accent-color;
+    }
+  }
+}
+
+.bacground-customers {
+  color: inherit;
+}
+
+.icon-customers {
+  display: block;
+  fill: currentColor;
+}
