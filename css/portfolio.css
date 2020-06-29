@@ -124,10 +124,16 @@
 .thumb {
   position: relative;
   overflow: hidden;
+  height: 294px;
 }
 
 .img-our-team {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .sectiion-title {
