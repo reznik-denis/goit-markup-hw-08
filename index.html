@@ -145,7 +145,17 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="list our-team">
             <li class="item">
-              <img class="img-margin" src="./images/JohnSmith.jpg" alt="Николай Кучеренко" width="270" height="260"/>
+              <picture>
+                <source srcset="./images/nikolay-270.webp 270w, ./images/nikolay-540.webp 540w" media="(min-width: 1200px)" type="image/webp" sizes="(min-width: 1200px) 25vw" />
+                <source srcset="./images/nikolay-354.webp 354w, ./images/nikolay-708.webp 708w" media="(min-width: 768px)" type="image/webp" sizes="(min-width: 768px) 50vw" />
+                <source srcset="./images/nikolay-450.webp 450w, ./images/nikolay-900.webp 900w" media="(max-width: 768px)" type="image/webp" sizes="100vw" />         
+                <img class="img-margin" 
+                  srcset="./images/nikolay-450.jpg 450w, ./images/nikolay-354.jpg 354w, ./images/nikolay-270.jpg 270w"
+                  src="./images/nikolay-450.jpg" 
+                  alt="Николай Кучеренко" 
+                  width="100%"
+                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw,  100vw" />
+              </picture>
               <h3 class="comand">Николай Кучеренко</h3>
               <p class="comand-text" lang="en">Product Designer</p>
               <ul class="list img-social">

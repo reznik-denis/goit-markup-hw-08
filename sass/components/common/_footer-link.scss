@@ -9,7 +9,7 @@
 
   color: $primary-white-color;
   background-color: $footer-bacground-color;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     margin-top: 10px;
   }
 }
@@ -46,7 +46,7 @@
 
 .footer .join-in {
   padding: 60px 0;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     padding: 56px 0;
   }
 }
@@ -89,7 +89,7 @@
 .footer-colums {
   padding-top: 60px;
   text-align: center;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 0;
     display: flex;
     align-items: baseline;
@@ -101,7 +101,7 @@
 .footer-social {
   display: flex;
   justify-content: center;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     justify-content: start;
   }
 }

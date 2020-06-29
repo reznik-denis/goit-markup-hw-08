@@ -21,7 +21,7 @@
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .main-button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -38,7 +38,7 @@
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .main-button .item {
     margin-bottom: 0;
   }
@@ -77,7 +77,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .our-works {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -99,7 +99,7 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .our-works .item {
     width: calc((100% - 60px) / 3);
   }

@@ -35,7 +35,7 @@
   border-radius: 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     width: 528px;
     height: 581px;
   }
@@ -99,7 +99,7 @@
 
   color: $text-color;
   cursor: pointer;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     font-size: 14px;
   }
 }
@@ -111,7 +111,7 @@
   text-decoration-line: underline;
 
   color: $accent-color;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     font-size: 14px;
   }
 }
@@ -141,7 +141,7 @@
   background-color: inherit;
 
   transition: background-color 250ms $time-function;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     margin-left: 13px;
   }
   .checkbox input:checked + & {

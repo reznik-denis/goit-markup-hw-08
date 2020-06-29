@@ -2,7 +2,7 @@
   .item {
     width: 100%;
     margin-bottom: 30px;
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1200px) {
       width: calc((100% - 90px) / 4);
       margin-right: 30px;
       margin-bottom: 0;
@@ -10,12 +10,12 @@
     &:nth-child(4n) {
         margin-right: 0;
         margin-bottom: 60px;
-        @media screen and (min-width: 1600px) {
+        @media screen and (min-width: 1200px) {
           margin-bottom: 0;
         }
     }
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
   }
