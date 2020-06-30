@@ -36,12 +36,8 @@
        margin: 15px;
     }
     @media screen and (min-width: 1200px) {
-      width: calc((100% - 90px) / 4);
-      margin-right: 30px;
-      margin-bottom: 0;
-    }
-    &:nth-child(4n) {
-      margin-right: 0;
+      width: calc((100% - 120px) / 4);
+      margin: 15px;
     }
     .img-margin {
       width: 100%;
@@ -58,16 +54,15 @@
     flex-wrap: wrap;
     margin: -15px;
   }
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 .img-social {
   display: flex;
   justify-content: space-between;
   padding: 0 122px 24px 122px;
+  @media screen and (min-width: 768px) {
+    padding: 0 74px 24px 74px;
+  }
   @media screen and (min-width: 1200px) {
     padding: 0 32px 24px 32px;
   }

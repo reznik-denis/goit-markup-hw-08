@@ -114,11 +114,13 @@
     @media screen and (min-width: 768px) {
       margin-bottom: 10px;
     }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+    }
   }
 }
 
-.site-contacts {
-  margin-left: auto;
+.menu-container .site-contacts {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.02em;
@@ -133,12 +135,17 @@
   }
   @media screen and (min-width: 1200px) {
     flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 305px;
   }
 }
 
 .site-nav .contacts-main:not(:last-child) {
-  @media screen and (min-width: 768px) {
-    // margin-right: 30px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 30px;
   }
 }
 
@@ -155,6 +162,10 @@
   @media screen and (min-width: 768px) {
     width: 14px;
     height: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 11.2px;
   }
 }
 

@@ -7,6 +7,18 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .item-tablet {
+    margin-bottom: 0;
+    margin-right: 94px;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .adress-footer-margin {
+    margin-right: 69px;
+  }
+}
+
 .adress {
   margin-bottom: 9px;
   margin-top: 20px;
@@ -18,9 +30,6 @@
 
   color: $primary-white-color;
   background-color: $footer-bacground-color;
-  @media screen and (min-width: 1200px) {
-    margin-top: 10px;
-  }
 }
 
 .footer-link .footer-link-contact {
@@ -59,7 +68,7 @@
     padding: 0;
   }
   @media screen and (min-width: 1200px) {
-    padding: 56px 0;
+    padding: 72px 0 100px 0;
   }
 }
 
