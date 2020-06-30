@@ -1,3 +1,12 @@
+@media screen and (min-width: 768px) {
+  .item-tablet {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+}
+
 .adress {
   margin-bottom: 9px;
   margin-top: 20px;
@@ -46,6 +55,9 @@
 
 .footer .join-in {
   padding: 60px 0;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
   @media screen and (min-width: 1200px) {
     padding: 56px 0;
   }
@@ -106,4 +118,7 @@
   }
 }
 
+.margin-bottom-email {
+  margin-bottom: 9px;
+}
 

@@ -1,6 +1,6 @@
 .advantages .item .section-subtitle {
   text-align: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     text-align: left;
   }
 }
@@ -36,6 +36,6 @@
 .section-text {
   color: $text-color;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }

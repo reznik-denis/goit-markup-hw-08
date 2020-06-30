@@ -1,17 +1,20 @@
 .our-works {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
   }
   .item {
     position: relative;
     width: 100%;
-    margin-right: 30px;
-    margin-bottom: 30px;
 
     border: 1px solid $border-our-team-color;
 
     transition: box-shadow 250ms $time-function;
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 60px) / 2);
+      margin: 15px;
+    }
     @media screen and (min-width: 1200px) {
        width: calc((100% - 60px) / 3);
        &:nth-last-child(-n + 3) {
@@ -21,12 +24,6 @@
     &:hover, &:focus {
       box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
         0px 1px 1px rgba(0, 0, 0, 0.12);
-    }
-    &:nth-child(3n) {
-      margin-right: 0;
-    }
-    &:nth-last-child(-n + 1) {
-      margin-bottom: 0;
     }
   }
 }
@@ -87,5 +84,13 @@
   transition: transform 250ms $time-function;
   .our-works .item:hover &, .our-works .item:focus & {
     transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
